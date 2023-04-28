@@ -1,8 +1,11 @@
 var http = require("http");
+require('dotenv').config();
 
+var port = process.env.PORT;
 http
   .createServer(function (req, res) {
-    res.writeHead(301, { Location: "http://w3docs.com" });
+    res.writeHead(301, { Location: "https://example.com" });
     res.end();
   })
-  .listen(8888);
+  .listen(port);
+  console.log("Running on port "+port);

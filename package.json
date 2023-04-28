@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-redirect",
+  "version": "1.0.0",
+  "description": "redirect",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.charlie-cloud.hu/Charlie/Nodejs-redirect.git"
+  },
+  "author": "Charlie",
+  "license": "WTFPL",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
