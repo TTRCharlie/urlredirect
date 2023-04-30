@@ -9,6 +9,6 @@ RUN npm install
 ENV PORT=8080
 ENV URL=https://example.com
 
-EXPOSE 8080
+EXPOSE $PORT
 
 CMD npm start
