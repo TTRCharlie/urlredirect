@@ -6,8 +6,8 @@ WORKDIR /opt/app
 
 RUN npm install
 
-ENV PORT=8080
-ENV URL=https://example.com
+ENV PORT 8080
+ENV URL https://example.com
 
 EXPOSE $PORT
 
