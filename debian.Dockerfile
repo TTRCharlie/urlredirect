@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:debian
 
 COPY / /opt/app
 
