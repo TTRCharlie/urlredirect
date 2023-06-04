@@ -1,4 +1,4 @@
-FROM node:debian
+FROM node:bullseye
 
 COPY / /opt/app
 
