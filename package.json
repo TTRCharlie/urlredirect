@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-redirect",
+  "name": "nodejs-urlrewrite",
   "version": "1.0.0",
-  "description": "redirect",
+  "description": "urlrewrite",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
