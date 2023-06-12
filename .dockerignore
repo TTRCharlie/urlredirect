@@ -1,2 +1,6 @@
 Dockerfile
 debian.Dockerfile
+alpine.Dockerfile
+.env
+node_modules
+package-lock.json
