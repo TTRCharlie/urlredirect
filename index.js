@@ -5,7 +5,7 @@ const port = process.env.PORT || 8999;
 http
   .createServer(function (req, res) {
     res.writeHead(301, { Location: process.env.URL });
-    console.info(`${req.socket.remoteAddress} ${res.statusCode} ${res.statusMessage}`)
+    console.info(`${req.socket.remoteAddress} ${req.method} ${res.statusCode} ${res.statusMessage}`)
     res.end();
   })
   .listen(port);
