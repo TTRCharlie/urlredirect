@@ -1,5 +1,6 @@
 Dockerfile
 debian.Dockerfile
+debian-slim.Dockerfile
 alpine.Dockerfile
 .env
 .gitignore
