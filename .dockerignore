@@ -1,6 +1,7 @@
 Dockerfile
 debian.Dockerfile
 alpine.Dockerfile
+debian-slim.Dockerfile
 .env
 .gitignore
 README.md
